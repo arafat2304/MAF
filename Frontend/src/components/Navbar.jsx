@@ -44,6 +44,7 @@ function Navbar() {
               <Link to="/" className="hover:text-green-700">Home</Link>
               <Link to="/about" className="hover:text-green-700">About</Link>
               <Link to="/products" className="hover:text-green-700">Products</Link>
+              <Link to="/gallery">Gallery</Link>
               <Link to="/contact" className="hover:text-green-700">Contact</Link>
             </div>
           </div>
