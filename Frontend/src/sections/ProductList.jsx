@@ -1,4 +1,7 @@
 import ProductCard from "../components/ProductCard";
+import i1 from "../assets/ContractFarming.jpg";
+import i2 from "../assets/FeedProduction.jpg"
+import i3 from "../assets/BroilerFarm.jpg"
 
 function ProductList() {
   const products = [
@@ -6,19 +9,19 @@ function ProductList() {
       id: 1,
       name: "Day-Old Chicks",
       description: "Healthy and high-quality chicks from modern hatchery.",
-      image: "https://images.unsplash.com/photo-1589927986089-35812388d1f4",
+      image: i1,
     },
     {
       id: 2,
       name: "Broiler Chickens",
       description: "Scientifically raised broilers with hygienic methods.",
-      image: "https://images.unsplash.com/photo-1604908177225-9a5c8c2bdbef",
+      image: i2,
     },
     {
       id: 3,
       name: "Poultry Feed",
       description: "Nutritionally balanced feed for healthy poultry growth.",
-      image: "https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd",
+      image:i3,
     },
   ];
 
