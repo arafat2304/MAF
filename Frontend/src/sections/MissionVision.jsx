@@ -8,8 +8,10 @@ function MissionVision() {
             Our Mission
           </h3>
           <p className="mt-4 text-gray-600">
-            To provide hygienic, high-quality poultry products using
-            advanced technology and scientific farming methods.
+            To provide superior-quality poultry products and
+            nutritionally balanced feed at competitive prices,
+            ensuring sustainable growth for farmers and
+            complete customer satisfaction.
           </p>
         </div>
 
@@ -18,9 +20,9 @@ function MissionVision() {
             Our Vision
           </h3>
           <p className="mt-4 text-gray-600">
-            To become a trusted leader in the poultry industry by
-            expanding modern farming infrastructure and supporting
-            contract farmers across the country.
+            To lead with quality.  
+            To grow with trust.  
+            To serve with excellence.
           </p>
         </div>
       </div>
