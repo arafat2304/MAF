@@ -1,15 +1,22 @@
+import { motion } from "framer-motion";
+
 function ProductHero() {
   return (
-    <section className="bg-green-50">
-      <div className="max-w-6xl mx-auto px-4 py-16 text-center">
-        <h1 className="text-3xl md:text-5xl font-bold text-green-800">
+    <section className="bg-gradient-to-br from-green-900 via-green-800 to-green-700 text-white">
+      <motion.div
+        className="max-w-6xl mx-auto px-4 py-20 text-center"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+      >
+        <h1 className="text-4xl md:text-5xl font-bold">
           Our Products
         </h1>
-        <p className="mt-4 text-gray-600">
-          High-quality poultry products produced with modern
-          and hygienic farming methods.
+        <p className="mt-5 text-green-100 max-w-xl mx-auto">
+          High-quality poultry products produced with modern,
+          hygienic, and scientifically managed farming systems.
         </p>
-      </div>
+      </motion.div>
     </section>
   );
 }

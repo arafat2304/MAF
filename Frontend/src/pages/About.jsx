@@ -8,12 +8,10 @@ import WhyChooseUs from "../sections/WhyChooseUs";
 function About() {
   return (
     <>
-      <Navbar />
       <AboutHero />
       <MissionVision />
       <Infrastructure />
       <WhyChooseUs />
-      <Footer />
     </>
   );
 }

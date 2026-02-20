@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 function Infrastructure() {
   const items = [
     "Modern Parent Breeding Farms",
@@ -7,20 +9,27 @@ function Infrastructure() {
   ];
 
   return (
-    <section className="py-16 bg-green-50">
+    <section className="py-20 bg-green-50">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-2xl md:text-4xl font-bold text-green-800 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-green-800 text-center">
           Our Infrastructure
         </h2>
 
-        <div className="grid gap-6 mt-10 md:grid-cols-4">
+        <div className="grid gap-6 mt-12 md:grid-cols-4">
           {items.map((item, i) => (
-            <div
+            <motion.div
               key={i}
-              className="bg-white p-6 rounded-xl shadow text-center"
+              className="bg-white p-8 rounded-2xl shadow-md text-center hover:shadow-xl transition"
+              whileHover={{ y: -6 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: i * 0.1 }}
+              viewport={{ once: true }}
             >
-              <p className="font-semibold">{item}</p>
-            </div>
+              <p className="font-semibold text-gray-700">
+                {item}
+              </p>
+            </motion.div>
           ))}
         </div>
       </div>

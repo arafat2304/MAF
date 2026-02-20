@@ -6,10 +6,10 @@ import GalleryGrid from "../sections/GalleryGrid";
 function Gallery() {
   return (
     <>
-      <Navbar />
+      
       <GalleryHero />
       <GalleryGrid />
-      <Footer />
+      
     </>
   );
 }

@@ -7,11 +7,9 @@ import MapSection from "../sections/MapSection";
 function Contact() {
   return (
     <>
-      <Navbar />
       <ContactHero />
       <ContactForm />
       <MapSection />
-      <Footer />
     </>
   );
 }

@@ -6,10 +6,10 @@ import ProductList from "../sections/ProductList";
 function Products() {
   return (
     <>
-      <Navbar />
+      
       <ProductHero />
       <ProductList />
-      <Footer />
+      
     </>
   );
 }

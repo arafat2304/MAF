@@ -5,9 +5,14 @@ import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -15,6 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
+
+      <Footer />
     </BrowserRouter>
   );
 }
