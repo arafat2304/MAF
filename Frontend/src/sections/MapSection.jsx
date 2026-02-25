@@ -3,7 +3,7 @@ function MapSection() {
     <section className="w-full">
       <iframe
         title="Company Location"
-        src="https://www.google.com/maps?q=anand&output=embed"
+        src="https://www.google.com/maps?q=Diya Cinema Complex, 100 Feet Road Anand&output=embed"
         className="w-full h-80 border-0"
         loading="lazy"
       ></iframe>

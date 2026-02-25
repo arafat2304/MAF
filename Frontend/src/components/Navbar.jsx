@@ -23,7 +23,7 @@ function Navbar() {
               <img
                 src={logo}
                 alt="Merchant Agri Foods"
-                className="h-9 object-contain"
+                className="h-15 object-contain"
               />
             </Link>
 

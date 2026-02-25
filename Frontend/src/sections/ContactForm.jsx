@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 function ContactForm() {
   const [form, setForm] = useState({
@@ -13,34 +14,59 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Inquiry sent!");
+
+    const phoneNumber = "917801888849"; // WhatsApp number with country code
+
+    const text = `
+New Inquiry from Website
+
+Name: ${form.name}
+Phone: ${form.phone}
+Message: ${form.message}
+`;
+
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+
+    window.open(url, "_blank");
+
     setForm({ name: "", phone: "", message: "" });
   };
 
   return (
-    <section className="py-16 bg-white">
-      <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10">
-        
+    <section className="py-20 bg-white">
+      <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12">
+
         {/* Contact Details */}
-        <div>
-          <h2 className="text-2xl font-bold text-green-800">
-            Contact Information
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-3xl font-bold text-green-800">
+            Get In Touch
           </h2>
-          <p className="mt-4 text-gray-600">
-            Reach out to us for chicks, broilers, or contract farming.
+
+          <p className="mt-4 text-gray-600 leading-relaxed">
+            For chicks supply, broilers, poultry feed,
+            or contract farming inquiries, feel free to contact us.
           </p>
 
-          <div className="mt-6 space-y-4">
-            <p><strong>Address:</strong> Your Farm Address Here</p>
-            <p><strong>Phone:</strong> +91 98765 43210</p>
-            <p><strong>Email:</strong> info@poultryfarm.com</p>
+          <div className="mt-8 space-y-4 text-gray-700">
+            <p><strong>📍 Address:</strong> F-9 First Floor Diya Cinema Complex, 100 Feet Road Anand</p>
+            <p><strong>📞 Phone:</strong> +91 635611011</p>
+            <p><strong>✉ Email:</strong> merchantgroup07@gmail.com</p>
           </div>
-        </div>
+        </motion.div>
 
         {/* Contact Form */}
-        <form
+        <motion.form
           onSubmit={handleSubmit}
-          className="bg-green-50 p-6 rounded-xl shadow space-y-4"
+          className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl shadow-lg space-y-5"
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
         >
           <input
             type="text"
@@ -48,7 +74,7 @@ function ContactForm() {
             placeholder="Your Name"
             value={form.name}
             onChange={handleChange}
-            className="w-full p-3 rounded border"
+            className="w-full p-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-green-600 outline-none"
             required
           />
 
@@ -58,7 +84,7 @@ function ContactForm() {
             placeholder="Phone Number"
             value={form.phone}
             onChange={handleChange}
-            className="w-full p-3 rounded border"
+            className="w-full p-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-green-600 outline-none"
             required
           />
 
@@ -67,18 +93,19 @@ function ContactForm() {
             placeholder="Your Message"
             value={form.message}
             onChange={handleChange}
-            className="w-full p-3 rounded border"
             rows="4"
+            className="w-full p-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-green-600 outline-none"
             required
           />
 
           <button
             type="submit"
-            className="w-full bg-green-700 text-white py-3 rounded-lg"
+            className="w-full bg-green-700 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition"
           >
-            Send Inquiry
+            Send Inquiry on WhatsApp
           </button>
-        </form>
+        </motion.form>
+
       </div>
     </section>
   );
