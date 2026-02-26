@@ -15,7 +15,7 @@ function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const phoneNumber = "917801888849"; // WhatsApp number with country code
+    const phoneNumber = "916356110110"; // WhatsApp number with country code
 
     const text = `
 New Inquiry from Website
