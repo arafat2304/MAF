@@ -11,7 +11,6 @@ function Home() {
       <Hero />
       <WhoWeAre />
       <Facilities />
-      <MissionVision />
       <Stats />
       <ContactCTA />
     </>

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import i1 from "../assets/ContractFarming.jpg";
-import i2 from "../assets/FeedProduction.jpg";
+import i1 from "../assets/DayOldChicks.jpeg";
+import i2 from "../assets/finisher.jpeg";
 import i3 from "../assets/BroilerFarm.jpg";
 
 function ProductList() {
@@ -15,18 +15,18 @@ function ProductList() {
       id: 2,
       name: "Broiler Chickens",
       description: "Scientifically raised broilers with hygienic methods.",
-      image: i2,
+      image: i3,
     },
     {
       id: 3,
       name: "Poultry Feed",
       description: "Nutritionally balanced feed for healthy poultry growth.",
-      image: i3,
+      image: i2,
     },
   ];
 
   const handleInquiry = (product) => {
-    const phone = "917801888849"; // country code + number
+    const phone = "916356110110"; // country code + number
     const message = `Hello, I am interested in ${product.name}. Please provide more details.`;
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");

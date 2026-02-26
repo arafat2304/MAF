@@ -1,8 +1,11 @@
 function Stats() {
   const stats = [
     { number: "10+", label: "Years Experience" },
-    { number: "50+", label: "Contract Farms" },
-    { number: "1M+", label: "Chicks Monthly" },
+
+    { number: "✔", label: "Successfully Handling Long Term Contracts" },
+
+    { number: "✔", label: "Reliable & Consistent Chikcs Supply" },
+
     { number: "100+", label: "Employees" },
   ];
 

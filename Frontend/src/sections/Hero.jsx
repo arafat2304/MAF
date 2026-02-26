@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";   // ADD THIS
 import heroImg from "../assets/ahad4.jpeg";
 
 function Hero() {
@@ -25,9 +26,13 @@ function Hero() {
             Quality poultry. Trusted nutrition. Sustainable growth.
           </p>
 
-          <button className="mt-8 bg-white text-green-800 px-7 py-3 rounded-lg font-semibold shadow-lg hover:scale-105 transition">
-            Contact Us
-          </button>
+          {/* Contact Button Redirect */}
+          <Link to="/contact">
+            <button className="mt-8 bg-white text-green-800 px-7 py-3 rounded-lg font-semibold shadow-lg hover:scale-105 transition">
+              Contact Us
+            </button>
+          </Link>
+
         </motion.div>
 
         {/* Image */}

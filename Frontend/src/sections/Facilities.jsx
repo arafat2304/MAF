@@ -7,8 +7,8 @@ import feed3 from "../assets/starter.jpeg";
 import feed4 from "../assets/prestart.jpeg";
 
 import hatch1 from "../assets/modernHatchery.jpeg";
-import hatch2 from "../assets/modernHatchery.jpeg";
-import hatch3 from "../assets/breederFarms.jpeg";
+import hatch2 from "../assets/modernHetchary1.jpeg";
+import hatch3 from "../assets/modernHetchary2.jpeg";
 
 import breed1 from "../assets/breederFarms.jpeg";
 import breed2 from "../assets/modernHatchery.jpeg";
@@ -58,7 +58,7 @@ Breeder farms are the backbone of integrated poultry operations. At MERCHANT AGR
 Our farms follow strict biosecurity protocols, balanced nutritional programs, and modern farm management practices. This ensures consistent fertility, strong chick quality, and reliable performance throughout the production cycle.
 
 Through careful monitoring and quality control, we maintain excellence at every stage — from parent stock management to egg supply for our hatcheries.`,
-      gallery: [breed1, breed2, breed3],
+      gallery: [],
     },
   ];
 
