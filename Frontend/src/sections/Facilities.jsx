@@ -51,9 +51,7 @@ Strict biosecurity and hygiene standards are followed at every stage to provide 
       img: breed1,
       desc: "High-quality parent stock managed under scientific conditions.",
       details:
-        `Breeder Farms
-
-Breeder farms are the backbone of integrated poultry operations. At MERCHANT AGRI FOODS PVT LTD, we manage high-quality parent stock under scientifically controlled conditions to ensure superior hatchable egg production.
+        `Breeder farms are the backbone of integrated poultry operations. At MERCHANT AGRI FOODS PVT LTD, we manage high-quality parent stock under scientifically controlled conditions to ensure superior hatchable egg production.
 
 Our farms follow strict biosecurity protocols, balanced nutritional programs, and modern farm management practices. This ensures consistent fertility, strong chick quality, and reliable performance throughout the production cycle.
 

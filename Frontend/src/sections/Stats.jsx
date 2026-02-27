@@ -4,7 +4,7 @@ function Stats() {
 
     { number: "✔", label: "Successfully Handling Long Term Contracts" },
 
-    { number: "✔", label: "Reliable & Consistent Chikcs Supply" },
+    { number: "✔", label: "Reliable & Consistent Chicks Supply" },
 
     { number: "100+", label: "Employees" },
   ];

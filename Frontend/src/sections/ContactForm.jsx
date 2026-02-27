@@ -54,7 +54,7 @@ Message: ${form.message}
 
           <div className="mt-8 space-y-4 text-gray-700">
             <p><strong>📍 Address:</strong> F-9 First Floor Diya Cinema Complex, 100 Feet Road Anand</p>
-            <p><strong>📞 Phone:</strong> +91 635611011</p>
+            <p><strong>📞 Phone:</strong> +91 6356110110</p>
             <p><strong>✉ Email:</strong> merchantgroup07@gmail.com</p>
           </div>
         </motion.div>

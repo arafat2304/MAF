@@ -14,7 +14,7 @@ function Hero() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Merchant Agri Foods
+            Merchant Agri Foods PVT LTD
           </h1>
 
           <p className="mt-5 text-lg text-green-100">
