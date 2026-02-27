@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 
-import img1 from "../assets/p1.jpg";
 import img2 from "../assets/p2.jpg";
 import img3 from "../assets/p3.jpg";
 import img4 from "../assets/p4.jpg";
@@ -10,7 +9,7 @@ import img5 from "../assets/p5.jpg";
 import img6 from "../assets/p6.jpg";
 
 function GalleryGrid() {
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [ img2, img3, img4, img5, img6];
 
   const [currentIndex, setCurrentIndex] = useState(null);
 

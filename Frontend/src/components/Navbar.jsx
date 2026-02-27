@@ -16,16 +16,7 @@ function Navbar() {
       {/* Premium Glass Navbar */}
       <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-gray-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-5">
-          <div className="flex items-center justify-between h-16">
-
-            {/* Left Logo */}
-            <Link to="/" className="flex items-center">
-              <img
-                src={logo}
-                alt="Merchant Agri Foods"
-                className="h-15 object-contain"
-              />
-            </Link>
+          <div className="flex items-center justify-end h-16">
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center gap-10 text-gray-700 text-[15px] font-medium">
