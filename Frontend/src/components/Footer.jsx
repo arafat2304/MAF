@@ -44,7 +44,7 @@ function Footer() {
             Anand, Gujarat, India
           </p>
           <p className="text-sm">
-            Email: info@merchantagrifoodspvtltd.com
+            Email: merchantgroup07@gmail.com
           </p>
         </div>
 
