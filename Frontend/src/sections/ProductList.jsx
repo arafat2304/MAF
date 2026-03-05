@@ -50,7 +50,7 @@ function ProductList() {
               <div className="relative">
                 <img
                   src={product.image}
-                  alt={product.name}
+                  alt="Merchant Agri Foods Poultry Farm Anand"
                   className="h-52 w-full object-cover"
                 />
 

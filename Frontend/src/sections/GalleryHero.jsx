@@ -8,7 +8,7 @@ function GalleryHero() {
       {/* Background Image */}
       <img
         src={heroImg}
-        alt="Gallery Background"
+        alt="Merchant Agri Foods Poultry Farm Anand"
         className="absolute inset-0 w-full h-full object-cover"
       />
 

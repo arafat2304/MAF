@@ -82,7 +82,7 @@ Through careful monitoring and quality control, we maintain excellence at every 
               <div className="relative">
                 <img
                   src={item.img}
-                  alt={item.title}
+                  alt="Merchant Agri Foods Poultry Farm Anand"
                   className="h-48 w-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>

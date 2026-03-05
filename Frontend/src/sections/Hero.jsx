@@ -38,7 +38,7 @@ function Hero() {
         {/* Image */}
         <motion.img
           src={heroImg}
-          alt="Poultry Farm"
+          alt="Merchant Agri Foods PVT LTD"
           className="rounded-2xl shadow-2xl w-full"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}

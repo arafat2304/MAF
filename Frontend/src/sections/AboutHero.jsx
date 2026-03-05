@@ -8,7 +8,7 @@ function AboutHero() {
       {/* Background Image */}
       <img
         src={heroImg}
-        alt="Poultry Farm"
+        alt="Merchant Agri Foods Poultry Farm Anand"
         className="absolute inset-0 w-full h-full object-cover"
       />
 

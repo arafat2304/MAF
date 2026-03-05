@@ -55,7 +55,7 @@ function GalleryGrid() {
             >
               <img
                 src={img}
-                alt="Gallery"
+                alt="Merchant Agri Foods Poultry Farm Anand"
                 className="w-full h-52 md:h-64 object-cover transition duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition duration-300"></div>
@@ -99,7 +99,7 @@ function GalleryGrid() {
             <motion.img
               key={currentIndex}
               src={images[currentIndex]}
-              alt="Full View"
+              alt="Merchant Agri Foods Poultry Farm Anand"
               className="max-h-[85vh] rounded-2xl shadow-2xl"
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
