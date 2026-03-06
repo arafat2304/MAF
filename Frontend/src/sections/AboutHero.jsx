@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImg from "../assets/logo.jpeg";
+import heroImg from "../assets/breederFarms.jpeg";
 
 function AboutHero() {
   return (
